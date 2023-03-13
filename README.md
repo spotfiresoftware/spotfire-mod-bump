@@ -1,5 +1,7 @@
 # Bump Chart Mod for TIBCO Spotfire®
 
+<img src="assets/bump.png" width="60%"/>
+
 A special type of line chart designed for exploring changes in ranking over time. Useful to compare the position / performance / ranking of multiple observations rather than the actual values itself.
 
 ## Installation & Use
