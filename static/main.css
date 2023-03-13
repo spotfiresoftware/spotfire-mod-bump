@@ -1,0 +1,64 @@
+/*
+* Copyright © 2020. TIBCO Software Inc.
+* This file is subject to the license terms contained
+* in the license file that is distributed with this file.
+*/
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+#mod-container {
+    white-space: pre;
+}
+
+.line {
+   opacity: 0.7; 
+}
+
+.selection {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    border: 1px solid #677085;
+    background-color: rgba(0, 90, 230, 0.17);
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+}
+
+.selection-bg {
+    visibility: hidden;
+    position: absolute;
+    background-color: rgba(200, 90, 230, 0);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.inactiveMarking {
+    fill: cornflowerblue;
+    stroke: black;
+    fill-opacity: 0;
+    stroke-opacity: 0;
+    pointer-events: none;
+}
+
+.activeMarking {
+    fill: cornflowerblue;
+    stroke: black;
+    fill-opacity: 0.5;
+    stroke-opacity: 0.5;
+    pointer-events: none;
+}
+
+.enabled {
+    visibility: visible;
+}
+
+.disabled {
+    visibility: hidden;
+}
