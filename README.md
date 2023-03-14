@@ -6,6 +6,8 @@ A special type of line chart designed for exploring changes in ranking over time
 
 ## Installation & Use
 
+[Download latest version](https://github.com/TIBCOSoftware/spotfire-mod-bump/releases)
+
 The [Wiki](https://github.com/TIBCOSoftware/spotfire-mod-bump/wiki) contains step-by-step instruction on how to install and use this Mod in TIBCO Spotfire®.
 
 ## Building the Project
